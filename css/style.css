@@ -4,27 +4,31 @@ body {
 }
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   padding: 5px;
   outline: none;
 }
-.search-field:hover {
-  outline: none;
-  border: none;
+
+#input-field:focus{
+  color:blueviolet;
+  
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 1px solid rgb(4, 12, 7);
   width: 281px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
+ 
 }
+
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+  padding: 10px 10px;
+  background:lightslategray;
+  border-radius:4px ;
+  margin-left: 62px;
 }
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -36,13 +40,14 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
-  transition: 0.6s;
+  padding: 15px;
+  transition: 0.3s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
-  border-radius: 10px;
-  border: 1px solid cyan;
+  box-shadow: 4px 4px 7px rgb(228, 223, 223);
+  border-radius: 10px 0 10px 0px;
+  
+  border: 1px solid #e5e5e5;
 }
 .product-image {
   width: 150px;
@@ -52,7 +57,7 @@ body {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 10px 10px 20px rgb(228, 223, 223);
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
