@@ -25,9 +25,9 @@ body {
 
 .search-button {
   padding: 10px 10px;
-  background:lightslategray;
-  border-radius:4px ;
-  margin-left: 62px;
+  background:transparent;
+  border:none;
+  margin-left: 57px;
 }
 /* end search box */
 
