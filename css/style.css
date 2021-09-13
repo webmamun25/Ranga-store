@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+/* search box related css */
 .search-field {
   border: none;
   border-radius: 30px;
@@ -28,7 +29,10 @@ body {
   border-radius:4px ;
   margin-left: 62px;
 }
+/* end search box */
 
+
+/* start product css */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -53,6 +57,7 @@ body {
   width: 150px;
   height: 150px;
 }
+/* cart css start here */
 .cart {
   width: 350px;
   /* border: 1px solid green; */

@@ -1,3 +1,4 @@
+// fetch url 
 const loadProducts = () => {
   const url = `https://fakestoreapi.com/products`;
   fetch(url)
@@ -28,6 +29,7 @@ const showProducts = (products) => {
     document.getElementById("all-products").appendChild(div);
   }
 };
+// how many product selected 
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
@@ -38,7 +40,7 @@ const addToCart = (id, price) => {
   document.getElementById("total-Products").innerText = count;
 };
 
-
+//Deatils of single product
 const Details=(id)=>{
   const url = `https://fakestoreapi.com/products/${id}`;
   fetch(url)
@@ -57,7 +59,7 @@ const getData=(data)=>{
   amount.innerText = `Price:${data.price}`
   
 }
-
+//return value
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   const converted = parseFloat(element);
